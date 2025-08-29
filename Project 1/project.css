@@ -1,0 +1,94 @@
+.container{
+    width: 1100px;
+    margin-left: 80px;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration:none;
+    color: rgb(90, 90, 90);
+}
+a:hover{
+    color: black;
+}
+ul{
+    text-decoration:none;
+    color: rgb(90, 90, 90);
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn{
+    background:rgb(255, 151, 233);
+    border: none;
+    padding: 11px;
+    border-radius: 10%;
+    margin-top: -8px;
+}
+.place{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    gap: 10px;
+}
+.pico{
+  gap: 20px;
+  width: 800px;
+  margin-left: 165px;
+}
+.pics{
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+.arrow-buttons {
+  position: absolute;
+  top: 140px;
+  margin-left: 1000px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  border: 2px rgb(50, 89, 205) solid;/* Yellow */
+  color: rgb(50, 89, 205);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color:rgb(122, 155, 255);
+}
+
+/* Dots (Bottom Center) */
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #cfd8dc; /* Inactive */
+  border-radius: 50%;
+  /* display: inline-block; */
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover, .dot.active {
+  background-color: #b79e6a; /* Green active */
+}

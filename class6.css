@@ -1,0 +1,71 @@
+html{
+    font-style: arial;
+}
+.container{
+    border: 1px solid rgb(173, 173, 173);
+    display: flex;
+    justify-content: space-between;
+
+}
+.button{
+    background:
+}
+.card{
+    background-color: rgb(176, 176, 176);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.link{
+    display:flex;
+    list-style: none;
+    /* flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    gap: 20px;
+}
+header{
+    background: brown;
+    padding: 20px;
+
+}
+aside{
+    display: flex;
+    background: green;
+    width: 50%;
+    list-style:none;
+    padding: 25px;
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap: 15px;
+}
+.main{
+    display: flex;
+    list-style: none;
+}
+.section{
+    background: blue;
+    width: 50%
+}
+footer{
+    background: navy;
+    padding: 20px;
+}
+.hero-section{
+    border: 5px solid rgb(255, 0, 0);
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.hero-left{
+    background: green;
+    width: 50%;
+    margin: 10px;
+}
+.hero-right{
+    background: blue;
+    width: 50%
+    margin-right: 10px;
+}
