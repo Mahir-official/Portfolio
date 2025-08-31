@@ -1,0 +1,423 @@
+.container{
+    width: 1100px;
+    margin-left: 80px;
+}
+.fcontainer{
+    width: 850px;
+    margin-left: 210px;
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration:none;
+    color: rgb(90, 90, 90);
+}
+a:hover{
+    color: black;
+}
+ul{
+    text-decoration:none;
+    color: rgb(90, 90, 90);
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.btn{
+    background:rgb(255, 151, 233);
+    border: none;
+    padding: 11px;
+    border-radius: 10%;
+    margin-top: -8px;
+}
+
+    /* HOMEPAGE CSS START ------------------ */
+section{
+    display: flex;
+    gap: 10px;
+}
+.place{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.homepage{
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+    margin-top: -20px; 
+    padding: 0; 
+    background: rgb(216, 228, 252);
+}
+.green{
+    margin-bottom: 30px;
+    color: white;
+    border: 2px rgb(16, 67, 121) solid;
+    border-radius: 3%;
+    background: rgb(16, 67, 121);
+}
+.btn1{
+    margin-top: 15px;
+    margin-bottom: -20px;
+    background: rgb(255, 151, 233);
+}
+.btn2{
+    margin-top: 15px;
+    margin-bottom: -20px;
+    background: rgb(16, 67, 121);
+    color: white;
+}
+.eepo{
+    margin: 30px;
+}
+.home2{
+    display: flex;
+    gap: 50px;
+}
+.logos{
+    width: 115px;
+    height: 50px;
+    border-radius: 8%;
+}
+.gap{
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+}
+.gaps{
+    display: flex; 
+    flex-direction: column; 
+    gap: 14px;
+}
+.clear{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.clear-left {
+  flex: 1;   /* text side takes remaining space */
+}
+
+.clear-right {
+  flex: 1;   /* image side also takes equal space */
+  display: flex;
+  justify-content: center; /* center the image */
+  align-items: center;     /* vertically center */
+}
+
+.clear-right img {
+  width: 250px; /* make image responsive */
+  ;
+  margin-bottom: -47px;
+}
+
+    /* HOMEPAGE CSS END -------------------- */
+
+    /* CASE STUDY CSS START -------------------- */
+.pico{
+  gap: 20px;
+  width: 800px;
+  margin-left: 165px;
+}
+.pics{
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+}
+.arrow-buttons {
+  position: absolute;
+  top: 720px;
+  margin-left: 1000px;
+  display: flex;
+  gap: 10px;
+}
+
+.arrow {
+  border: 2px rgb(50, 89, 205) solid;/* Yellow */
+  color: rgb(50, 89, 205);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  background-color:rgb(122, 155, 255);
+}
+
+/* Dots (Bottom Center) */
+.dots {
+  position: absolute;
+  top: 1150px;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: #cfd8dc; /* Inactive */
+  border-radius: 50%;
+  /* display: inline-block; */
+  transition: background-color 0.3s ease;
+}
+
+.dot:hover, .dot.active {
+  background-color: #b79e6a; /* Green active */
+}
+    /* CASE STUDY END ------------------   */
+    /* MY SERVICES START -------------------     */
+.services{
+     padding-top: 30px; 
+     padding-bottom: 50px; 
+     background: rgb(225, 235, 255); 
+     margin-top: 90px;
+}
+.diva{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+.card{
+    padding: 40px;
+    background: white;
+    border: 2px gold groove;
+    border-radius: 3%;
+}
+.ser{
+    width: 130px;
+    height: 120px;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    margin-left: 60px;
+}
+.btn3{
+    background: white;
+    margin-top: 0px;
+    color: rgb(5, 29, 138);
+    transition: all 0.3s ease;
+}
+.btn3:hover{
+   font-size: 14px;
+   transform: translateY(-3px);
+}
+.btn1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background: rgb(5, 29, 138);
+    transition: width 0.3s ease; /* Smooth animation */
+}
+
+.btn1:hover::after {
+    width: 100%; /* underline expands smoothly */
+}
+    /* MY SERVICES END ----------------- */
+
+    /* FEEDBACK START ------------------------- */
+    .fdiv{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    /* margin-left: 300px; */
+    margin-top: -10px;
+
+}
+.momo{
+    border-right: 1px rgb(205, 205, 205) solid;
+    padding-right: 80px;
+}
+.pino{
+    width: 45px;
+    height: 45px;
+    margin-bottom: -18px;
+}
+.testimonial{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.testimonial-left {
+      max-width: 500px;
+    }
+.testimonial-right img {
+  width: 320px;
+  height: 340px;
+  margin-top: -90px;
+  border-radius: 12px;
+  background: rgb(192, 214, 243); 
+  margin-left: 210px;
+  box-shadow: #020202;
+}
+
+    /* Yellow chat box */
+.chat-box {
+  margin-top: 20px;
+  background: #f4e3a0; 
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 2px #fce68e solid;
+}
+.chat-box::after {
+  content: "";                /* makes element appear */
+  position: absolute; 
+  top: 2323px;      /* position relative to .chat-box */
+  bottom: -12px;               /* moves it below the box */
+  left: 240px;                  /* horizontal position of the tail */
+  border-width: 12px 12px 0;   /* size of the triangle */
+  border-style: solid;         /* needed for triangle */
+  border-color: #f4e5a8 transparent transparent transparent;
+}
+
+.quote-icon {
+    margin-top:-23px;
+      color: #1345aa;
+      font-size: 50px;
+      margin-bottom: -26px;
+      display: block;
+    }
+.chatbox p{
+    font-size: 12px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.sec{
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    font-size: 14px;
+}
+.pfp{
+    margin-top:-80px;
+    margin-bottom: -10px; 
+    display: flex;
+}
+.articles{
+    display: flex; 
+    gap: 40px; 
+    margin-top: 10px; 
+    margin-left: 450px;
+}
+/* Profile section */
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .profile img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: -13px;
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-info strong{
+      margin-top: -10px;
+      font-size: 16px;
+      color: #020202;
+    }
+
+    .profile-info span {
+      font-size: 13px;
+      color: #666;
+    }
+
+    /* FEEDBACK END ----------------------- */
+
+    /* CONTACT START ---------------------- */
+.contact{
+    margin-top: 40px; 
+    padding-top: 50px; 
+    padding-bottom: 40px; 
+    background: rgb(225, 235, 255);
+}
+.green1{
+    color: white;
+    border: 2px rgb(12, 52, 95) solid;
+    border-radius: 3%;
+    background: rgb(12, 49, 88);
+}
+.btn1{
+    margin-top: 15px;
+    margin-bottom: -20px;
+    background: rgb(255, 151, 233);
+}
+
+.clear{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.clear-left {
+  flex: 1;   /* text side takes remaining space */
+}
+
+.clear-right {
+  flex: 1;   /* image side also takes equal space */
+  display: flex;
+  justify-content: center; /* center the image */
+  align-items: center;     /* vertically center */
+}
+.mail{
+    background:rgb(34, 79, 128);
+    padding-left: 21px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 4%;
+}
+.mail img{
+    width: 50px;
+    height: 50px;
+}
+.mail h5{
+    font-size: -25px;
+    color: rgb(248, 244, 244); 
+}
+.mai{
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.phone{
+    background:rgb(34, 79, 128);
+    padding-left: 21px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    border-radius: 4%;
+}
+.phone img{
+    width: 50px;
+    height: 50px;
+}
+.phone h5{
+    color: rgb(248, 244, 244); 
+    margin-bottom: -7px;
+}
+footer{
+    background: rgb(225, 235, 255);
+    padding: 70px;
+}
+    /* CONTACT END */
